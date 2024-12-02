@@ -1,6 +1,6 @@
-# Advent of Code 2023 in PHP
+# Advent of Code in PHP
 
-This is my attempt at the [Advent of Code 2023](https://www.adventofcode.com) in PHP.
+This is my attempt at the [Advent of Code](https://www.adventofcode.com) in PHP.
 
 ## Requirements
 
@@ -23,9 +23,9 @@ composer install
 To launch the program, run the following command:
 
 ```bash
-composer run advent <day>
+composer run advent <day> <year>
 # Or
-php src/advent.php <day>
+php src/advent.php <day> <year>
 ```
 
 ### Tests
