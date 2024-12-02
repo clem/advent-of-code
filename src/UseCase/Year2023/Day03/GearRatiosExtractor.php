@@ -48,7 +48,7 @@ final class GearRatiosExtractor
 
             $gearInfo = $this->convertLinePartToGearInfo($linePart, $index, $posX);
             $lineContents[] = $gearInfo;
-            $lastPosX = $posX + $gearInfo->size;
+            $lastPosX = $posX + ($gearInfo->size ?? 0);
         }
 
         return $lineContents;
